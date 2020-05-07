@@ -13,11 +13,11 @@ const isActive = (history, path) => {
 
 const Menu = ({ history }) => (
     <nav  className="navbar navbar-expand-lg navbar-light bg-dark ">
-        <h1 id="h1">
-            <Link className="text-light text-decoration-none" to="/">
-                Modern-Residence
+        <h3 id="h1">
+            <Link  className="text-light text-decoration-none" to="/">
+                Dream House
         </Link>
-        </h1>
+        </h3>
         <ul className="">
             <li className="nav-item">
                 <Link className="nav-link"
